@@ -5,6 +5,7 @@
  * @file
  * @ingroup Extensions
  */
+// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
@@ -46,6 +47,16 @@ $specialPageAliases['br'] = array(
 /** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'CloseWiki' => array( 'ZatvoriWiki' ),
+);
+
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'CloseWiki' => array( '關掉維基' ),
+);
+
+/** Chechen (нохчийн) */
+$specialPageAliases['ce'] = array(
+	'CloseWiki' => array( 'Вики_дӀачӀагӀар' ),
 );
 
 /** German (Deutsch) */
@@ -155,7 +166,7 @@ $specialPageAliases['km'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'CloseWiki' => array( '위키닫기' ),
+	'CloseWiki' => array( '위키폐쇄', '위키닫기' ),
 );
 
 /** Colognian (Ripoarisch) */
@@ -176,6 +187,11 @@ $specialPageAliases['lad'] = array(
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'CloseWiki' => array( 'Wiki_zoumaachen' ),
+);
+
+/** Minangkabau (Baso Minangkabau) */
+$specialPageAliases['min'] = array(
+	'CloseWiki' => array( 'TutuikWiki' ),
 );
 
 /** Macedonian (македонски) */
@@ -300,7 +316,7 @@ $specialPageAliases['vi'] = array(
 
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
-	'CloseWiki' => array( '关闭Wiki' ),
+	'CloseWiki' => array( '关闭wiki', '关闭Wiki' ),
 );
 
 /** Traditional Chinese (中文（繁體）‎) */
